@@ -17,7 +17,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+import urls_and_views.departments.views as views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('department/',include('urls_and_views.departments.urls'))
+    path('',views.welcome_page),
+    path('department/CRUD/', include([
+        path('create', views.create_department),
+        path('edit', views.edit_department),
+        path('delete', views.delete_department),
+    ])),
+    path('department/',include('urls_and_views.departments.urls')),
+
 ]
