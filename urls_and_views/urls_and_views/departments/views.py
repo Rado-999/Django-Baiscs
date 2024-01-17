@@ -19,12 +19,24 @@ from django.shortcuts import render
 #     return HttpResponse("<h1>Welcome to department4 section</h1>")
 
 
+departments = [1,2,3,4]
+
+
 def welcome_page(request, *args, **kwargs):
     return HttpResponse("<h1>Welcome to My site</h1>")
 
 
 def show_department_by_id(request, department_id):
-    return HttpResponse(f"<h1>Welcome to department {department_id} section</h1>")
+    if department_id not in departments:
+        return HttpResponse(f"<h1>There is no department with id: {department_id}</h1>")
+    else:
+        departments_names = {
+            1:'Developers',
+            2:'Programming',
+            3:'Technology',
+            4:'Customer Support'
+        }
+        return HttpResponse(f"<h1>Welcome to {departments_names[department_id]}</h1>")
 
 
 def show_deparment_by_str(request, department_name):
@@ -45,3 +57,18 @@ def edit_department(request):
 
 def delete_department(request):
     return HttpResponse(f"<h1>Here u can delete an existing department</h1>")
+
+def crud_page(request):
+    context = """
+        <div>Click on operation to continue...
+            <ul>
+                <li><a href="http://localhost:8000/department/CRUD/create">Create</a></li>
+                <li><a href="http://localhost:8000/department/CRUD/edit">Edit</a></li>
+                <li><a href="http://localhost:8000/department/CRUD/delete">Delete</a></li>
+            </ul>
+        </div>
+    """
+    return HttpResponse(context)
+
+
+
