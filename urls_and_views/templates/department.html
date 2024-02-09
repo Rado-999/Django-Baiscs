@@ -1,0 +1,14 @@
+{% extends 'Homepage.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ department_to_show }}</title>
+</head>
+<body>
+
+    {%  block something %}
+        <h3>This is {{ department_to_show }} department</h3>
+    {% endblock %}
+</body>
+</html>
