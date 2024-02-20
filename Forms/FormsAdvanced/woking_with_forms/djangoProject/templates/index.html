@@ -1,0 +1,23 @@
+<div>
+    <h1>Normal Form</h1>
+    <form action={% url 'create_view' %} method="POST">
+        {{ form }}
+        {% csrf_token %}
+        <button>Send</button>
+    </form>
+    
+    <h1>Model Form</h1>
+    <form action={% url 'create_model' %} method="POST">
+        {{ modelform }}
+        {%csrf_token  %}
+    <button>Send</button>
+    </form>
+
+    <ul>
+    {% for student in students_list %}
+        <li>{{ student.full_name }}
+            <a href="{% url 'update_student' pk=student.pk %}">Edit</a>
+        </li>
+    {% endfor %}
+    </ul>
+</div>

@@ -1,0 +1,8 @@
+<body>
+    <h1>Fill the Form</h1>
+    <form action="{% url 'created_view' %}" method="post">
+        {% csrf_token %}
+        {{ modelform }}
+        <button type="submit">Add</button>
+    </form>
+</body>

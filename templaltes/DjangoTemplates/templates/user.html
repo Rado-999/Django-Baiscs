@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load my_filter %}
+{% load my_tag %}
+{% block content %}
+    Firts block 
+    
+    {% for num in nums|odd %}
+        <p>{{ num }}</p>
+    {% endfor %}
+{% endblock %}
+
+{% block sidebar %}
+    Second block
+    {% include 'parts/sidebar.html' %}
+{% endblock %}
+
+{% block tag %}
+    <p>{% reverse %}</p>
+{% endblock %}
+
+

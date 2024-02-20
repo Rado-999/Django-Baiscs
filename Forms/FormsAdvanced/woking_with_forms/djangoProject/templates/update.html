@@ -1,0 +1,7 @@
+<form action="{% url 'update_student' pk=student_pk %}" method = "POST">
+    {{ student_form }}
+    <button>Update</button>
+    {% csrf_token  %}
+</form>
+
+{#<H1>Seven</H1>#}

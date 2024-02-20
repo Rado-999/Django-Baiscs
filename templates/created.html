@@ -1,0 +1,12 @@
+<h1>Welcome {{ name }}</h1>
+<p>That is your email {{ email }}</p>
+<p>Age {{ age }}</p>
+<p>{{ person_img }}</p>
+<div>
+    <p>All persons that have img</p>
+    {% for person in persons %}
+        {% if person.profile_pic %}
+            <img src="{{ person.profile_pic.url }}">
+        {% endif %}
+    {% endfor %}
+</div>
