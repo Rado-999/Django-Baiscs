@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="628f644f-7e16-4938-8e3b-95e5263a928b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/.idea/djangoProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/LearningForms/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/LearningForms/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/LearningForms/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/LearningForms/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/LearningForms/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/LearningForms/migrations/0002_alter_studentmodel_first_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/LearningForms/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/LearningForms/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/LearningForms/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/LearningForms/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/LearningForms/validators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/LearningForms/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/djangoProject/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/templates/created.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../woking_with_forms/djangoProject/templates/update.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2c9PzIftQxfa6KrDO7exTSfMplv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/college prject",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="628f644f-7e16-4938-8e3b-95e5263a928b" name="Changes" comment="" />
+      <created>1707521082103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707521082103</updated>
+      <workItem from="1707521086938" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
