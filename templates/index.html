@@ -1,0 +1,52 @@
+{% load crispy_forms_tags %}
+
+{#<h1>Welcome to Here</h1>#}
+{##}
+{#<form action="{% url 'created' %}" method="POST">#}
+{#    {{ form }}#}
+{#    {% csrf_token %}#}
+{#    <button>Submit</button>#}
+{#</form>#}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <form METHOD="POST" , enctype="multipart/form-data">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <button>Submit</button>
+
+
+        </form>
+{#        <h1>Crispy form</h1>#}
+{##}
+{#        <form  class="my-class" method="post">#}
+{#        {% crispy form %}#}
+{#        </form>#}
+    
+    <h1>Working with mediafiles</h1>
+{#    <form method="Post" , enctype="multipart/form-data">#}
+{#        {% csrf_token %}#}
+{#        {{ person_form.as_p }}#}
+{#        <button>Submit</button>#}
+{#    </form>#}
+    
+    </body>
+
+
+</form>
+
+
+</html>
+
+
+
+
+
+{#<form>#}
+{#    {{ modelfactory }}#}
+{#    <button>Submit</button>#}
+{#</form>#}
